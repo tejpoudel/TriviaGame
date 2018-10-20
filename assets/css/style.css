@@ -1,0 +1,146 @@
+body{
+
+    background-image: url("../images/IQ.jpeg");
+
+}
+
+#container {
+	padding: 5% 0;
+    width:600px;
+    margin: 75px auto;
+    background: url(../images/background.jpg);
+}
+
+h1{
+    font-size: 45px;
+    color: midnightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    color:black;
+    text-align: center;
+    line-height: 50px;
+    
+
+
+}
+
+.questions, .results, .start{
+    /* background-color: red; */
+    /* border: 1px solid gray; */
+    padding: 20px;
+    margin: 10px auto; 
+    clear: both;
+    width: 80%;
+    position: relative;
+}
+
+.start{
+    height: 170px;
+}
+
+.results{
+    display: none; 
+    text-align: center;
+}
+
+.questions{
+     display: none;
+     text-align: center;
+}
+h2 {
+	font-size: 1.5em;
+	color: green;
+	margin-bottom: 40px;
+}
+
+h4{
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.r{
+    margin: 5px;
+
+}
+#timer{
+    display: none;
+}
+
+#submit{
+    margin: 5px;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: royalblue;
+    color: yellow;
+    /* position: absolute; */
+    display: block;
+    /* right: 10px; */
+    bottom: 1px;
+    /* float: right; */
+    margin-top: 20px;
+    
+}
+#submit:hover{
+    background-color: springgreen;
+    color: royalblue;
+    cursor: pointer;
+    
+}
+
+#timer{
+    font-size: 20px;
+    color: red;
+    text-align: center
+}
+
+#info{
+    display: none;
+}
+
+#restart{
+    margin: 5px auto;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    display: block;
+    bottom: -50px;
+    margin-top: 20px;
+  
+    
+}
+#restart:hover{
+    background-color: springgreen;
+    color: royalblue;
+    cursor: pointer;
+}
+
+button {
+	font-family: 'Chewy', cursive;
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+    background: orange;
+    font-size: 40px;;
+    color: purple;
+    margin-bottom: -80px;  
+}
+
+button:hover{
+    background-color: springgreen;
+    color: royalblue;
+    cursor: pointer;
+}
