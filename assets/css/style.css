@@ -1,7 +1,6 @@
 body{
 
     background-image: url("../images/IQ.jpeg");
-
 }
 
 #container {
@@ -19,19 +18,28 @@ h1{
     text-align: center;
 }
 
+h2 {
+	font-size: 1.5em;
+	color: green;
+	margin-bottom: 40px;
+}
+
+h4{
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
 p{
     font-size: 18px;
     color:black;
     text-align: center;
     line-height: 50px;
-    
-
-
 }
 
 .questions, .results, .start{
-    /* background-color: red; */
-    /* border: 1px solid gray; */
     padding: 20px;
     margin: 10px auto; 
     clear: both;
@@ -52,50 +60,11 @@ p{
      display: none;
      text-align: center;
 }
-h2 {
-	font-size: 1.5em;
-	color: green;
-	margin-bottom: 40px;
-}
 
-h4{
-    color: black;
-    font-size: 30px;
-    margin: 5px;
-    margin-top: 30px;
-    margin-bottom: 24px;
-}
-
-.r{
-    margin: 5px;
-
-}
 #timer{
     display: none;
 }
 
-#submit{
-    margin: 5px;
-    width: 150px;
-    height: 40px;
-    margin: 0 auto;
-    font-size: 20px;
-    background-color: royalblue;
-    color: yellow;
-    /* position: absolute; */
-    display: block;
-    /* right: 10px; */
-    bottom: 1px;
-    /* float: right; */
-    margin-top: 20px;
-    
-}
-#submit:hover{
-    background-color: springgreen;
-    color: royalblue;
-    cursor: pointer;
-    
-}
 
 #timer{
     font-size: 20px;
@@ -140,6 +109,27 @@ button {
 }
 
 button:hover{
+    background-color: springgreen;
+    color: royalblue;
+    cursor: pointer;
+}
+
+#submit{
+    font-family: 'Chewy', cursive;
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: orange;
+    color: purple;
+    display: block;
+    bottom: 1px;
+    margin-top: 20px; 
+    margin-bottom: -50px;  
+}
+
+#submit:hover{
     background-color: springgreen;
     color: royalblue;
     cursor: pointer;

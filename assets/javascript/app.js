@@ -5,17 +5,15 @@ var timer;
 
 $("#startbtn").click(function(){
 
-               //show  questions section. it will search .question class!
+               //show  questions section
                $(".questions").css("display", "block"); 
                //show seconds indecator
                $("#timer").css("display", "block"); 
                //show p tag
                $("#info").css("display", "block"); 
-       
                //hide results
                $(".results").css("display", "none"); 
         
-
         //hide start
         $(".start").css("display", "none"); 
         //run this code each 1 second and set the variable "timer"
